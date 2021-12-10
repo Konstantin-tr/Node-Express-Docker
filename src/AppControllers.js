@@ -31,7 +31,7 @@ function mapMinus(app) {
 function mapIndex(app) {
   app.get("/", (req, res) => {
     res.send(
-      "Welcome to the Node.JS Express Calculator! V 0.1 - Available paths: /calc/x/op/y - where: 'x' and 'y' are integers and 'op' is either 'plus' or 'minus'"
+      "Welcome to the Node.JS Express Calculator! V 1.0 - Available paths: /calc/x/op/y - where: 'x' and 'y' are integers and 'op' is either 'plus' or 'minus'"
     );
   });
 }
