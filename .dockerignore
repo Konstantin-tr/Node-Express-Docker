@@ -1,3 +1,4 @@
 node_modules
 npm-debug.log
 azure-pipelines.yml
+manifests
