@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: konstantintrnodeexpressdocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: konstantintrnodeexpressdocker
+  template:
+    metadata:
+      labels:
+        app: konstantintrnodeexpressdocker 
+    spec:
+      containers:
+        - name: konstantintrnodeexpressdocker 
+          image: gsmsoftwaredeployment.azurecr.io/konstantintrnodeexpressdocker
+          ports:
+          - containerPort: 8080
